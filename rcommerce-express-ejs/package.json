@@ -1,11 +1,21 @@
 {
-  "name": "rcommerce-express-ejs",
-  "version": "1.0.0",
-  "description": "The practice project with expressjs and ejs. ",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Ronnie",
-  "license": "MIT"
+    "name": "rcommerce-express-ejs",
+    "version": "1.0.0",
+    "description": "The practice project with expressjs and ejs. ",
+    "main": "backend/server.js",
+    "scripts": {
+        "start": "node backend/server.js",
+        "server": "nodemon backend/server.js"
+    },
+    "author": "Ronnie",
+    "license": "MIT",
+    "dependencies": {
+        "colors": "^1.4.0",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "mongoose": "^6.10.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
 }
