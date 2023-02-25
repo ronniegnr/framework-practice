@@ -1,0 +1,11 @@
+{
+  "name": "rcommerce-express-ejs",
+  "version": "1.0.0",
+  "description": "The practice project with expressjs and ejs. ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ronnie",
+  "license": "MIT"
+}
