@@ -2,10 +2,10 @@
     "name": "rcommerce-express-ejs",
     "version": "1.0.0",
     "description": "The practice project with expressjs and ejs. ",
-    "main": "backend/server.js",
+    "main": "src/server.js",
     "scripts": {
-        "start": "node backend/server.js",
-        "server": "nodemon backend/server.js"
+        "start": "node src/server.js",
+        "server": "nodemon src/server.js"
     },
     "author": "Ronnie",
     "license": "MIT",
