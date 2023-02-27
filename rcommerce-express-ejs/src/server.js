@@ -4,10 +4,6 @@ const port = process.env.PORT || 5000
 
 const app = express()
 
-app.get('api/goals', (request, response) => {
-    response.send('Get Goals')
-})
+app.use('/api/goals', require('./routes/goalRoutes'))
 
-app.listen(port, () => {
-    console.log(`Server started on port ${port}`);
-})
+app.listen(port, () => console.log(`Server started on port ${port}`))
