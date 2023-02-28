@@ -3,6 +3,11 @@ const readGoals = (request, response) => {
 }
 
 const createGoal = (request, response) => {
+    if (!request.body.text) {
+        response.status(400)
+        throw new Error('Please add a text field')
+    }
+    console.log(request.body);
     response.status(200).json({message: 'Create Goal'})
 }
 
