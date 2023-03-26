@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../rc-express/.idea/rc-express.iml" filepath="$PROJECT_DIR$/../rc-express/.idea/rc-express.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/rc-express.iml" filepath="$PROJECT_DIR$/.idea/rc-express.iml" />
     </modules>
   </component>
 </project>
